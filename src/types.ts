@@ -6,3 +6,10 @@ export interface Question {
   category: string
   difficulty: string
 }
+
+export interface UserSelection {
+  userName: string
+  category: string
+  difficulty: string
+  limit: number
+}
