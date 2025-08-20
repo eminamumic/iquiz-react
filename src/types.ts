@@ -20,3 +20,9 @@ export interface CategoryCardProps {
   active?: boolean
   onClick: () => void
 }
+
+export interface DifficultyCardProps {
+  level: string
+  active: boolean
+  onClick: () => void
+}
