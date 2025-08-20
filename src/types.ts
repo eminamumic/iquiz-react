@@ -13,3 +13,10 @@ export interface UserSelection {
   difficulty: string
   limit: number
 }
+
+export interface CategoryCardProps {
+  name: string
+  imageSrc?: string
+  active?: boolean
+  onClick: () => void
+}
